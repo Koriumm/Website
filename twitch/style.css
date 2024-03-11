@@ -41,8 +41,18 @@ html, body {
 }
 
 table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: gray;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }
