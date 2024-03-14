@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-size: 16px;
   color: #444444;
-  background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 255, 255));
+  background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(100, 65, 165));
 }
 
 .page {
@@ -38,4 +38,11 @@ h1 {
 
 html, body {
   overflow: hidden;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
 }
