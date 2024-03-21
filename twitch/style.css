@@ -36,10 +36,6 @@ h1 {
   color: rgb(0, 90, 143);
 }
 
-html, body {
-  overflow: hidden;
-}
-
 table {
   width: 100%;
   border-collapse: collapse;
