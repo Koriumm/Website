@@ -16,10 +16,12 @@ body {
 }
 
 .container {
+  width: 550px;
   padding: 30px;
   background-color: white;
   border-radius: 4px;
   box-shadow: -2px 8px 12px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
 }
 
 .profile-image {
