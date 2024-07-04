@@ -1,0 +1,56 @@
+body {
+  font-family: 'Aldrich', sans-serif;
+  padding: 0;
+  font-size: 16px;
+  color: #444444;
+  background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(100, 65, 165));
+}
+
+.page {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 550px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: -2px 8px 12px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+}
+
+.profile-image {
+  width: 60px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 4px;
+  color: rgb(0, 90, 143);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
